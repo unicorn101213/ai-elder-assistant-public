@@ -1,0 +1,56 @@
+name: ai_elder_assistant
+description: 韩语AI助手 - 专为老年人设计
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 网络请求
+  http: ^1.2.2
+
+  # 录音
+  record: ^6.0.0
+
+  # 音频播放
+  audioplayers: ^6.1.0
+
+  # 图片选择（拍照 + 相册）
+  image_picker: ^1.1.2
+
+  # 本地数据库
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # 状态管理
+  provider: ^6.1.2
+
+  # 权限申请
+  permission_handler: ^11.3.1
+
+  # 文件路径
+  path_provider: ^2.1.4
+
+  # 共享偏好设置
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  image_path: "11.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: "11.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
